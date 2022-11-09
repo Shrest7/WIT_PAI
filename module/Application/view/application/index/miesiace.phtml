@@ -1,0 +1,10 @@
+MIESIACE:
+<ul>
+    <?php foreach ($this->miesiace as $i => $miesiac): ?>
+        <li style='color:<?=$miesiac[1]?>'>
+            <strong><?=$i+1?></strong>
+            :
+            <?=$miesiac[0] ?>
+        </li>
+    <?php endforeach?>
+</ul>
